@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+body{background: #ececec}
+
+.nav-con{width: 100%;z-index: 20}
+.nav-con{width: 100%;height: 40px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);background-color: rgba(0,0,0,0.8);;position: fixed;top: 0;}
+.nav-con .nav{width: 98%;height: 40px;margin: 0 auto;position: relative;}
+/*margin 外边距  margin:0 0 0 0;上 右 下 左  margin:0 0;上下 左右  margin:0;上下左右*/
+.nav-con .nav img{width: 32px;height: 32px;margin: 0 auto;position: relative;top: 4px;}
+.nav-con .nav ul li{width: 60px;height: 40px;float: left;list-style: none;line-height: 40px;text-align: center;font-size: 15px;}
+.nav-con .nav ul li:hover{background: rgba(155,155,155,0.3);}
+.nav-con .nav ul li a{text-decoration: none;display: block;color: #eae6e6;}
+.nav-con .nav ul li img{width: 32px;height: 32px;position: absolute;top: 4px;}
+
+.wel-con{width: 100%;background: #f5ebc8;height: 560px;z-index: 1}
+.wel-con .wel{width: 1080px;margin: 0 auto;position: relative;top: 140px;}
+
+.wel-con .wel .left-word{width: 540px;height: 410px;float: left;margin-top: 10px}
+.wel-con .wel .left-word h1{font-size: 54px;line-height: 60px;color: #320957;}
+.wel-con .wel .left-word p{font-size: 17px;line-height: 24px;color: #e04553;}
+.wel-con .wel .left-word .p2{font-size: 16px;line-height: 24px;}
+.button{width: 80px;height: 40px;background: green;text-align: center;margin-top: 20px;background: #f62877;border-radius: 5px 5px 5px 5px;}
+.button .button1{font-size: 15px;line-height: 40px;margin: 0 auto;text-decoration: none;color: #fff;display: block;}
+.button:hover{box-shadow: 0px 0px 20px #f62877;transform: scale(1.03);transition: all 0.3s;}
+.wel-con .wel img{width: 500px;height: 375px;float: right;margin-right: 0;}
+
+.menu-con{width: 100%;height: 50px;background: #fff;}
+.menu-con .menu{width: 1090px;height: 50px;margin: 0 auto;font-size: 28px;line-height: 50px;}
+
+.carder-con{width: 1110px;height: 1472.5px;margin: 30px auto;}
+.carder{width: 370px;height: 287px;float: left;}
+.card{width: 350px;height: 267px;background: #fff;margin: 10px auto;border-radius: 1px;}
+.card img{width: 332px;height: 249px;margin: 9px 9px;}
+.card:hover{box-shadow: 0px 0px 20px rgba(42,42,42,0.5);transform: scale(1.01);transition: all 0.2s;}
+
+.footer-con{width: 100%;height: 150px;background: #fff;}
+.footer{width: 1090px;height: 120px;margin: 0 auto;position: relative;top: 18px;}
+.footer-word{width: 545px;height:120px;float: left;}
+.footer-word p a{text-decoration: underline;color: #86868a;}
+.footer-word p{width: 100%;font-size: 13px;line-height: 24px;font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;color: #86868a;}
+.footer-word strong{font-size: 20px;line-height: 48px;color: #86868a;}
+.footer-img{width: 545px;height:120px;float: right;}
+.footer img{width: 80px;height: 80px;position: absolute;right: 0px;top: 16px;opacity: 0.8;}
+.footer .img-word{font-size: 12px;position: absolute;bottom: 1px;right: 2px;}
