@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico">
+<meta name="Author" contect="Wei Yunhui">
+<meta itemprop="name" content="小世界">
+<meta itemprop="image" content="/qijiu.jpg">
+<meta name=description content="向往昏暗房间那一点如豆灯光。">
+<meta property="og:title" content="小世界" >
+<meta property="og:type" content="website" >
+<meta property="og:image" content="/qijiu.jpg" >
+<meta http-equiv="Content-Type" contect="text/html";charset=gb_2312-80">
+<meta http-equiv="Content-Language" contect="zh-CN">
+<meta charset="utf-8">
+	<title>柒玖</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+
+		/*导航栏*/
+
+		.top{width: 100%;height: 114px;backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);background-color: rgba(41,41,41,0.8);position: fixed;top: 0;z-index: 20}
+		.top .nas{width: 114px;height: 114px;float: left;}
+		.top .pc{width: 114px;height: 114px;float: right;}
+		.top .xw{width: 114px;height: 114px;margin: 0 auto;}
+		.top .xw a{width: 114px;height: 114px;font-size: 43px;line-height: 114px;text-align: center;text-decoration: none;color: #e0e0e0;display: block;}
+		.top .nas img{position: absolute;top: 32px;left: 40px}
+		.top .pc img{position: absolute;top: 32px;right: 40px}
+
+		/*欢迎*/
+
+		.wel{width: 100%;height: 1300px;background: #281b06;}
+		/*欢迎图*/
+		.wel .st{width: 600px;height: 720px;margin: 0 auto;position: relative;z-index: 2}
+		.wel .st img{width: 600px;height: 423px;position: absolute;bottom: 20px;z-index: 1}
+		/*欢迎词*/
+		.wel .dot{width: 280px;height: 150px;position: relative;margin: 0 auto;}
+		.wel .dot1{width: 280px;height: 90px;text-align: center;color: #fff;margin: 0 auto;font-size: 40px;line-height: 90px;background: #d85888;border-radius: 45px 45px 45px 45px;position: absolute;top: 50px}
+		.wel .dot .dot1 a{text-decoration: none;color: #fff;display: block;}
+		.wel p{width: 100%;font-size: 100px;font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;;line-height: 110px;text-align: center;text-decoration: none;color: #000;font-weight: 600;}
+
+		.fg{width: 100%;height: 200px;border-top: 2px solid #8a8a8d;}
+		.fgg{width: 100%;height: 144px;background: #281b06;}
+		.fgg .fggl{line-height: 144px;font-size: 72px;font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;font-weight: 400;color: #fefefe;position: absolute;left: 45px;}
+		/*.fgg .fggr{line-height: 144px;font-size: 72px;font-family: 微软雅黑;font-weight: bolder;color: #304e80;position: absolute;right: 42px;}*/
+
+		/*项目*/
+		.card{width: 100vw;height: 128vw;position: relative;}
+		.carder{width: 90vw;height: 120vw;position: absolute;top: 0;left: 5vw;border-radius: 45px 45px 45px 45px;}
+		.carder .sp1{font-size: 150px;color: #fff;line-height: 120vw;}
+		.carder .wk{width: 90vw;height: 360px;background: #1c1c1d;position: absolute;bottom: 0px;border-radius: 0px 0px 45px 45px;}
+		.wk .h0{font-size: 4vw;font-weight: 600;color: #9d9da0;position: absolute;top: 42px;left: 43px;}
+		.wk .h1{font-size: 7vw;font-weight: 600;color: #fefefe;position: absolute;top: 105px;left: 42px;}
+		.wk .h2{font-size: 4vw;font-weight: 500;color: #8a8a8d;position: absolute;top: 205px;left: 44px;right: 90px;}
+
+		.card1{width: 100vw;height: 118vw;position: relative;z-index: 1}
+		.carder1{width: 90vw;height: 110vw;position: absolute;top: 0;left: 5vw;border-radius: 45px 45px 45px 45px;}
+		.i0{width: 100%;font-size: 42px;font-weight: bold;color: #616161;position: absolute;top: 45px;left: 54px;}
+		.i1{width: 100%;font-size: 70px;font-weight: 550;color: #313131;position: absolute;top: 105px;left: 50px;}
+		.i2{width: 100%;font-size: 70px;font-weight: 550;color: #313131;position: absolute;top: 185px;left: 50px;}
+
+		.carder1 img{border-radius: 45px 45px 45px 45px;}
+		.carder img{border-radius: 45px 45px 45px 45px;}
+
+		/*尾巴*/
+		
+		.bot{width: 100vw;height: 40vw;background: #1c1c1d;}
+		.bott{width: 90vw;height: 38vw;/*background: green;*/position: relative;left: 5vw;top: 1vw}
+
+		.b1{width: 100%;font-size: 28px;font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;color: #9d9da0;font-weight: 600;text-align: center;}
+		.bott a{text-decoration: none;color: #9d9da0;}
+
+		.wx{width: 12vw;height: 12vw;position: absolute;left: 39vw;top: 8vw;}
+		.wx img{filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;}
+
+	</style>
+</head>
+<body style="background: #000">
+
+	<!-- 导航栏 -->
+
+	<div class="top">
+		<div class="nas">
+			<a href="http://weiyunhui.top:5000/"><img src="images/nasn.png"></a></div>
+		<div class="pc">
+			<a href="pc.html"><img src="images/pcn.png"></a></div>
+		<div class="xw">
+			<a href="#">柒玖</a></div>
+	</div>
+
+	<!-- 欢迎 -->
+
+	<div class="wel">
+		<div class="st"><img src="images/stn.png"></div>
+		<p style="color: #fefefe;font-size: 10vw;line-height: 180px">嗨,别来无恙呐</p>
+		<p style="color: #bd5f34;font-weight: 500;font-size: 4vw;line-height: 58px">更羡慕街边咖啡座里的目光</p>
+		<p style="color: #bd5f34;font-weight: 500;font-weight: 200;font-size: 4vw;line-height: 58px">只一闪,便觉得日月悠长,山河无恙</p>
+		<div class="dot">
+			<div class="dot1"><a href="index.html">黑魔法按钮</a></div>
+		</div>
+		<p style="color: #bd5f34;font-weight: 500;font-size: 3vw;line-height: 105px">Art by Skinny Ships of Dribbble</p>
+		</div>
+	</div>
+	<div class="fg">
+		<div class="fgg">
+			<span class="fggl">Gallery</span>
+			<!-- <span class="fggr">Gallery</span> -->
+		</div>
+	</div>
+
+	<!-- 项目 -->
+
+	<div class="card">
+		<div class="carder">
+			<a href="girl0N.html"><img src="images/431.jpg" width="100%" height="100%"></a>
+			<div class="wk">
+				<span class="h0">我们相遇</span>
+				<span class="h1">与君初相识,犹如故人归</span>
+				<span class="h2">还记得第一次见面吗，我认得你,你不认得我,是你先跟我说的话哈哈</span>
+			</div>
+		</div>
+	</div>
+	<div class="card1">
+		<div class="carder1">
+			<a href="yearsN.html"><img src="images/zy/1.jpg" width="100%" height="100%"></a>
+			<span class="i0">年度回忆</span>
+			<span class="i1">快来看看,</span>
+			<span class="i2">这些年都做了些什么</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- 尾巴 -->
+
+	<div class="bot">
+		<div class="bott">
+			<div class="b1" style="position: absolute;top: 2vw;">柒玖柒 | 联系我</div>
+			<div class="wx"><img src="images/wxn.png" width="100%" height="100%"></div>
+			<div class="b1" style="position: absolute;top: 22vw;"><a href="http://www.beian.miit.gov.cn/">豫IPC备20005958号</a></div>
+			<div class="b1" style="position: absolute;top: 27vw;">Designed By Yunhui Wei.</div>
+			<div class="b1" style="position: absolute;top: 32vw;">CopyRight © 2020 Yunhui Wei. All Rights Reserved</div>
+		</div>
+	</div>
+</body>
+</html>
